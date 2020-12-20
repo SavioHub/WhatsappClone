@@ -1,18 +1,19 @@
+import 'react-native-gesture-handler';
 import React from "react";
-import { View } from "react-native";
+import { Text } from 'react-native'
 
-import Call from './pages/calls'
-import Message from './pages/messages'
-import Status from './pages/status'
+import Routes from './routes';
 
-import { Container } from './App.css';
+import styled from 'styled-components/native';
+
+const Container = styled.View`
+    justify-content: center;
+    align-items: center;
+    flex:1;
+`
 
 export default function App() {
 	return (
-		<Container>
-			<Status>
-			
-			</Status>
-		</Container>
+		<Routes />
 	);
 }
