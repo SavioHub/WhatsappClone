@@ -24,12 +24,13 @@ const Message = () => {
                 <Photo source={profile}></Photo>
                 <MessageContainer>
                     <TextContainer>
-                        <Name>Loli</Name>
-                        <MessageText>Oiii oni-chan</MessageText>
+                        <Name>Aghata</Name>
+                        <MessageText>To mestruada</MessageText>
                     </TextContainer>
                     <NotificationContainer>
-                        <TimeTable>00:00</TimeTable>
-                        <Notification/>
+                        <TimeTable>07:23</TimeTable>
+                        <Notification>    
+                        </Notification>
                     </NotificationContainer>
                 </MessageContainer>
             </MessageArea>
@@ -38,8 +39,8 @@ const Message = () => {
                 <Photo source={profile}></Photo>
                 <MessageContainer>
                     <TextContainer>
-                        <Name>Loli</Name>
-                        <MessageText>Oiii oni-chan</MessageText>
+                        <Name>Ramila</Name>
+                        <MessageText>Não dá, to mestruada</MessageText>
                     </TextContainer>
                     <NotificationContainer>
                         <TimeTable>00:00</TimeTable>

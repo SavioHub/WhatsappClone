@@ -33,7 +33,7 @@ export const MessageArea = styled.View`
 export const Photo = styled.Image`
     width: 60px;
     height: 60px;
-    background-color: white;
+    background-color: #fff5f5;
     opacity: 0.7;
     border-radius: 30px;
 `;

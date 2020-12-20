@@ -60,16 +60,18 @@ export const MyStatusContainer =styled.View`
     background-color: transparent;
 `
 export const Plus = styled.View`
+    width: 25px;
+    justify-content: center;
+    height: 25px;
     position: absolute;
-    background-color: #43cebb;
-    border-radius: 50px;
+    background-color: #16e9e9;
+    border-radius: 40px;
     bottom: 0;
     right: 0;        
 `
-export const User =styled.View`
-    align-items: center;
-    height: 60px;
+export const Photo = styled.ImageBackground`
     width: 60px;
-    position: absolute;
-    
-`
+    height: 60px;
+    background-color: #fff5f5;
+    opacity: 0.7;
+`;

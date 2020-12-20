@@ -1,22 +1,22 @@
 import React from 'react';
 import { Text, } from 'react-native';
-import { Container,AddStatus, Plus, Camera, MyStatus, User, Titulo, SubTitulo, Image, MyStatusContainer} from "./status.css"
+import { Container,AddStatus, Plus, Camera, MyStatus, Photo, Titulo, SubTitulo, Image, MyStatusContainer} from "./status.css"
 import { MaterialIcons } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
-import { FontAwesome } from '@expo/vector-icons';
+
+import profile from '../../assets/profile.png'; 
+
 const Status = () => {
     return(
         <Container> 
            <MyStatus>
-               <Image>
-                    <User>
-                        <FontAwesome name="user" size={30} color="#FFFAFA" />
-                    </User>
+                <Photo imageStyle={{borderRadius: 30}} source={profile}>
                     <Plus>
-                        <Feather name="plus" size={20} color="#FFFAFA" />
+                        <Feather name="plus" size={20} color="#e6dada" />
                     </Plus>
-               </Image>
+                </Photo>           
+                   
                <MyStatusContainer>
                    <Titulo>
                         Meu status
