@@ -1,15 +1,18 @@
 import React from 'react';
 import { Text, } from 'react-native';
-import { Container,AddStatus, Plus,Camera, MyStatus, Titulo, SubTitulo, Image, MyStatusContainer} from "./status.css"
+import { Container,AddStatus, Plus, Camera, MyStatus, User, Titulo, SubTitulo, Image, MyStatusContainer} from "./status.css"
 import { MaterialIcons } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
-
+import { FontAwesome } from '@expo/vector-icons';
 const Status = () => {
     return(
         <Container> 
            <MyStatus>
                <Image>
+                    <User>
+                        <FontAwesome name="user" size={30} color="#FFFAFA" />
+                    </User>
                     <Plus>
                         <Feather name="plus" size={20} color="#FFFAFA" />
                     </Plus>

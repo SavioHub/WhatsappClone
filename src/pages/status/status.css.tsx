@@ -51,7 +51,7 @@ export const SubTitulo = styled.Text`
 export const Image = styled.View`
     width: 60px;
     height: 60px;
-    background-color:blue;
+    background-color:#7b7b80;
     border-radius: 30px;
     position: relative;
 `
@@ -65,4 +65,11 @@ export const Plus = styled.View`
     border-radius: 50px;
     bottom: 0;
     right: 0;        
+`
+export const User =styled.View`
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    
 `
