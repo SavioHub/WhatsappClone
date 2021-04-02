@@ -1,7 +1,6 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-    padding-top: 5px;
     align-items: center;
     flex:1;
     background-color: #101e29;
@@ -19,6 +18,7 @@ export const StartMessage = styled.TouchableHighlight`
     border-radius: 30px;
     justify-content: center;
     align-items: center;
+    transform: scaleX(-1);
 `;
 
 export const MessageArea = styled.View`
@@ -76,5 +76,13 @@ export const Notification = styled.View`
     height: 22px;
     background-color: #2baba4;
     border-radius: 11px;
+    justify-content: center;
+    align-items: center;
+`;
 
+export const Line = styled.View`
+    border-bottom-width: 0.5px;
+    border-bottom-color: #313131;
+    width: 85%;
+    align-self: flex-end;
 `;
